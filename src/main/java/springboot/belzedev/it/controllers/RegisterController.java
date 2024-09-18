@@ -18,7 +18,7 @@ import springboot.belzedev.it.services.LoginRegisterService;
  * Fornisce un endpoint per registrare nuovi utenti.
  */
 @RestController
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://feangukartk.up.railway.app")
 @RequestMapping("/api/register")
 public class RegisterController {
 

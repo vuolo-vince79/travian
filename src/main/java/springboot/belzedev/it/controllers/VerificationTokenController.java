@@ -43,7 +43,7 @@ public class VerificationTokenController {
     @GetMapping
     public ResponseEntity<Void> verifyEmail(@RequestParam("token") String token){
         boolean isVerified = tokenService.validateVerificationToken(token);
-        String redirect = "http://localhost:4200/#/login?verified=" + (isVerified ? "true" : "false");
+        String redirect = "https://feangukartk.up.railway.app/#/login?verified=" + (isVerified ? "true" : "false");
 
         return ResponseEntity.status(HttpStatus.FOUND)
                 .location(URI.create(redirect))

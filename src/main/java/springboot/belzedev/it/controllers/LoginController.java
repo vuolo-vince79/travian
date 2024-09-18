@@ -23,7 +23,7 @@ import java.util.Map;
  * Fornisce un endpoint per la creazione di un token di autenticazione JWT.
  */
 @RestController
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://feangukartk.up.railway.app")
 @RequestMapping("/api/login")
 public class LoginController {
 

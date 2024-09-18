@@ -19,7 +19,7 @@ import java.util.List;
  * Fornisce endpoint per ottenere, aggiungere, aggiornare e eliminare utenti.
  */
 @RestController
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://feangukartk.up.railway.app")
 @RequestMapping("/api/users")
 public class UserController {
 
