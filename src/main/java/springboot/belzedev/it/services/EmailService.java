@@ -17,7 +17,7 @@ public class EmailService {
         try{
             String url = "https://traviam.up.railway.app/api/verify-email?token=" + token;
             SimpleMailMessage message = new SimpleMailMessage();
-            message.setFrom("zararaz2002@gmail.com");
+            message.setFrom("belzeproject@yandex.com");
             message.setTo(to);
             message.setSubject("Emeil Verification");
             message.setText("Please verify your email by clicking the link below:\n" + url);
