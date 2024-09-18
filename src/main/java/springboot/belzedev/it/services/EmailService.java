@@ -15,7 +15,7 @@ public class EmailService {
 
     public void sendVerificationEmail(String to, String token){
         try{
-            String url = "https://junction.proxy.rlwy.net/api/verify-email?token=" + token;
+            String url = "https://junction.proxy.rlwy.net:39433/railway/api/verify-email?token=" + token;
             SimpleMailMessage message = new SimpleMailMessage();
             message.setFrom("zararaz2002@gmail.com");
             message.setTo(to);
